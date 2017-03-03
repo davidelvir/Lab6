@@ -27,17 +27,39 @@ public class GatosYBaleadasTrump extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jd_panel_de_inicio = new javax.swing.JDialog();
+        jButton1 = new javax.swing.JButton();
+
+        jButton1.setText("jButton1");
+
+        javax.swing.GroupLayout jd_panel_de_inicioLayout = new javax.swing.GroupLayout(jd_panel_de_inicio.getContentPane());
+        jd_panel_de_inicio.getContentPane().setLayout(jd_panel_de_inicioLayout);
+        jd_panel_de_inicioLayout.setHorizontalGroup(
+            jd_panel_de_inicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jd_panel_de_inicioLayout.createSequentialGroup()
+                .addContainerGap(178, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addGap(143, 143, 143))
+        );
+        jd_panel_de_inicioLayout.setVerticalGroup(
+            jd_panel_de_inicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jd_panel_de_inicioLayout.createSequentialGroup()
+                .addContainerGap(147, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addGap(128, 128, 128))
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 577, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGap(0, 393, Short.MAX_VALUE)
         );
 
         pack();
@@ -71,6 +93,7 @@ public class GatosYBaleadasTrump extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new GatosYBaleadasTrump().setVisible(true);
@@ -79,5 +102,7 @@ public class GatosYBaleadasTrump extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JDialog jd_panel_de_inicio;
     // End of variables declaration//GEN-END:variables
 }
